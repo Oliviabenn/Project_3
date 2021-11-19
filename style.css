@@ -183,7 +183,7 @@ p{
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5rem;
-  font-family: Trebuchet MS;
+  font-family: Century Gothic;
   font-size: 1rem;
   color: var(--black);
 
@@ -232,7 +232,7 @@ button.btn{
   padding: 1.6rem 1rem;
   font-size: 1.1rem;
   position: relative;
-  font-family: Trebuchet MS;
+  font-family: Century Gothic;
   font-size: 1.1rem;
   color: #ffffff;
 }
