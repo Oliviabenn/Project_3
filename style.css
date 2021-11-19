@@ -232,7 +232,7 @@ button.btn{
   padding: 1.6rem 1rem;
   font-size: 1.1rem;
   position: relative;
-  font-family: var(--Montserrat);
+  font-family: Trebuchet MS;
   font-size: 1.1rem;
   color: #ffffff;
 }
@@ -273,7 +273,7 @@ button.btn{
 
 /*---- ----------------site title --------------------*/
 main .site-title{
-  background-image: url(https://i.ibb.co/1rG3mhw/site-bg-flower.jpg);
+  background-image: url(https://i.ibb.co/bKtzJjS/water-copy.jpg);
   background-position: center;
   background-size: cover;
   height: 50rem;
@@ -301,18 +301,22 @@ main .site-title h1, h3{
 
 main .site-title .btn{
   margin: auto;
-  margin-top: 3.5rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   justify-content: center;
-  background: var(--blue);
+  font-family: The Humble Script;
+  font-size: 3rem;
+  background: #0a77ad;
   color: white;
-  border: 2px solid #ffffff;
+  border: 2px dotted #ffffff;
 }
 
 main .site-title .btn:hover{
   background: #ffffff;
   border: 2px solid var(--black);
-  color: #7d7d7d;
+  color: #000000;
 }
 /*--x-- site title --x--*/
 
@@ -490,8 +494,9 @@ input[type=text], select, textarea {
 
 /* submit button */
 input[type=submit] {
-  background-color: #383773;
+  background-color: #1694d3;
   color: white;
+  justify-content: center;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -653,7 +658,7 @@ img.hover-shadow {
 
 /*------------------services cards------------------------------*/
 .card {
-background-color: #9fc3c6;
+background-color: #579eda;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 transition: 0.3s;
 width: 100%;
