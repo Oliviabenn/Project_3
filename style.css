@@ -139,7 +139,7 @@ h1{
   display: flex;
   width: 20%;
   /* height: 50rem; */
-  font-family: var(--PatuaOne);
+  font-family: The Humble Script;
   font-size: 2.5rem;
   text-shadow: 1px 1px white;
 }
@@ -152,15 +152,15 @@ h2{
   padding-left: 20%;
   padding-bottom: 5rem;
   line-height: 3rem;
-font-family: Century gothic;
-font-size: 2.1rem;
+  font-family: Century gothic;
+  font-size: 2.1rem;
   color: var(--black);
   text-shadow: 2px 2px white;
 }
 
 h3{
   display: flex;
-  font-family: Century gothic;
+  /* font-family: Century gothic; */
   text-align: justify;
   text-decoration: italic;
   padding-top: 5%;
@@ -172,7 +172,7 @@ h3{
 h4{
   text-align: center;
   text-decoration: underline;
-  font-family: Century gothic;
+  /* font-family: Century gothic; */
   font-size: 1.5rem;
   color: var(--black);
 }
@@ -194,12 +194,19 @@ p{
 /*----------------*/
 
 button.btn{
+  background-color: #dce9f9;
   border: none;
   border-radius: 2rem;
   padding: 1rem 3rem;
   font-size: 1rem;
-  font-family: var(--Montserrat);
+  font-family: Century gothic;
   cursor: pointer;
+}
+
+button.btn:hover{
+  background-color: #FFFFFF;
+  font-size: 1.5rem;
+  color: #2b9cb4;
 }
 
 
@@ -286,7 +293,7 @@ main .site-title{
 main .site-title .site-background{
   padding-top: 10rem;
   text-align: center;
-  color: var(--white);
+  color: var(--cloud);
 }
 
 main .site-title h1, h3{
