@@ -736,7 +736,7 @@ img.hover-shadow {
 
 /*------------------services cards------------------------------*/
 .card {
-background-color: #069ea0;
+background-color: rgb(167,195,232,.6);
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 transition: 0.3s;
 width: 100%;

@@ -11,7 +11,7 @@
 window.onload = choosePic;
 
 var theAd = 0;
-var adImages = new Array("https://ibb.co/cT86yNq","https://ibb.co/TwPKcJq", "https://ibb.co/n7Hb1tD", "https://ibb.co/jrkyy7H", "https://ibb.co/v15tSsF");
+var adImages = new Array("./images/3.jpeg","./images/4.jpeg","./images/5.jpeg");
 
 function choosePic() {
      theAd = Math.floor(Math.random() * adImages.length);
@@ -30,7 +30,8 @@ function rotate() {
      setTimeout(rotate, 3 * 1000);
 }
 
-// //scroll by 200px when h1 is onclick
-// function scrollWin() {
-//   window.scrollBy(0, 600);//changed 200px to 600px
-// }
+
+//scroll by 200px when h1 is onclick
+function scrollWin() {
+  window.scrollBy(0, 1000);//changed 200px to 600px
+}
