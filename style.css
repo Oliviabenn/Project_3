@@ -9,11 +9,11 @@
 }
 /*media query for mobile*/
 
-@media screen and (min-width: 750px) {
+/* @media screen and (min-width: 750px) {
   #container {
     width: 50%;
     height: 100%;
-  }
+  } */
 
   #about figure{
   width: 100%;
@@ -109,10 +109,7 @@ html, body{
 
 --white: #ffffff;
 --black: #000000;
---light-gray: #636363;
---bg-color: #ffffff;
---dark-gray: #262626;
-
+--dkblue: #
 /* -- gradient colors --*/
 
 --glass: linear-gradient(to top, #dfe9f3 0%, white 100%);
@@ -123,7 +120,7 @@ html, body{
 /* --------------------------- styles ---------------- */
 a{
   text-decoration: none;
-  color: var(--text-gray);
+  color: #005982;
 }
 
 .flex-row{
@@ -135,13 +132,73 @@ ul{
   list-style-type: none;
 }
 
+h1, h2, h3 {
+    margin: 0;
+    padding: 1em;
+    font-weight: strong;
+		text-shadow: 2px 2px #91726a;
+    font-family: 'Calibri';
+		text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 1em;
+  text-shadow: 2px 2px #FFFFFF;
+	font-family: 'The Humble Script';
+  color: #005982;
+  font-size: 3em;
+	line-height: 5rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  padding:1em;
+	float: left;
+	font-family: 'Century Gothic';
+  color: #ffffff;
+    font-size: 2.5em;
+		line-height: 120%;
+		background-color: rgb(6, 158, 160, .55);
+}
+
+h3 {
+    font-size: 2em;
+}
+h4 {
+	font-size: 1.25em;
+	text-align: center;
+    margin-top: 1.5rem;
+		padding: .75em;
+		color: #ffddde;
+		background-color: rgb(236, 159, 185, .75);
+}
+
+p {
+	font-size: 1.25em;
+  font-family: 'Century Gothic';
+    margin-top: 0;
+    line-height: 180%;
+		padding: .75em;
+		color: rgb(9, 8, 8, .80);
+		background-color: rgb(255, 255, 255, .80);
+}
+
+/*
 h1{
   display: flex;
+  justify-content: center;
   width: 20%;
-  /* height: 50rem; */
+  margin-top: 10px;
+  line-height: 7rem;
+  height: 15rem;
   font-family: The Humble Script;
-  font-size: 2.5rem;
-  text-shadow: 1px 1px white;
+  font-size: 3.5rem;
+  background-color: rgb(255, 255, 255, .8);
+  color: #069ea0;
+  text-shadow: 2px 2px white;
 }
 
 h2{
@@ -160,7 +217,7 @@ h2{
 
 h3{
   display: flex;
-  /* font-family: Century gothic; */
+  font-family: Century gothic;
   text-align: justify;
   text-decoration: italic;
   padding-top: 5%;
@@ -172,7 +229,7 @@ h3{
 h4{
   text-align: center;
   text-decoration: underline;
-  /* font-family: Century gothic; */
+  /* font-family: Century gothic;
   font-size: 1.5rem;
   color: var(--black);
 }
@@ -188,27 +245,33 @@ p{
   font-family: Century Gothic;
   font-size: 1rem;
   color: var(--black);
+} */
 
-}
-
-/*----------------*/
 
 button.btn{
-  background-color: #dce9f9;
+  background-color: #ffffff;
+  font-size: 1.5rem;
+  color: #000000;
   border: none;
   border-radius: 2rem;
   padding: 1rem 3rem;
-  font-size: 1rem;
-  font-family: Century gothic;
+  font-size: 1.5rem;
+  font-family: 'Century Gothic';
   cursor: pointer;
 }
 
 button.btn:hover{
-  background-color: #FFFFFF;
-  font-size: 1.5rem;
-  color: #2b9cb4;
+  background-color: rgb(6, 158, 60, .4);
+  text-decoration: 'strong';
+  font-size: 1.75rem;
+  color: #dce9f9;
 }
 
+button.btn:hover a{
+  text-decoration: 'strong';
+  font-size: 1.75rem;
+  color: #ffffff;
+}
 
 .navIcon{
   display: none;
@@ -241,15 +304,19 @@ button.btn:hover{
   padding: 1.6rem 1rem;
   font-size: 1.1rem;
   position: relative;
-  font-family: Century Gothic;
+  font-family: 'Century Gothic';
   font-size: 1.1rem;
   color: #ffffff;
 }
+.nav .nav-items .nav-link a{
+  color: #ffffff;
+}
+
 .nav .nav-items .nav-link:hover{
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255, .8);
 }
 .nav .nav-items .nav-link:hover a{
-  color: #2b9cb4;
+  color: #069ea0;
 }
 
 .nav .nav-brand a{
@@ -282,9 +349,10 @@ button.btn:hover{
 
 /*---- ----------------site title --------------------*/
 main .site-title{
-  background-image: url(https://i.ibb.co/bKtzJjS/water-copy.jpg);
+  background: url(https://i.ibb.co/bKtzJjS/water-copy.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 50rem;
   line-height: 2.5ch;
   justify-content: center;
@@ -296,7 +364,7 @@ main .site-title .site-background{
   color: var(--cloud);
 }
 
-main .site-title h1, h3{
+/* main .site-title h1, h3{
   margin: auto;
   margin-top: 3.5rem;
   display: flex;
@@ -315,17 +383,14 @@ main .site-title .btn{
   padding-bottom: 2rem;
   display: flex;
   justify-content: center;
-  font-family: The Humble Script;
-  font-size: 3rem;
-  background: #0a77ad;
-  color: white;
-  border: 2px dotted #ffffff;
+  font-family: 'Century Gothic';
+  font-size: 2.5rem;
+  background: #628fd0;
 }
 
 main .site-title .btn:hover{
-  background: #ffffff;
-  border: 2px solid var(--black);
-  color: #000000;
+  background: rgb(6, 158, 160, .75);
+  color: #ffffff;
 }
 /*--x-- site title --x--*/
 
@@ -442,22 +507,24 @@ main .header h1{
   padding-bottom: .5rem;
   top: 100%;
   z-index: 99;
-  color: #636363;
+  color: #ffffff;
   text-align: center;
 }
 /*---------------------------------------------------------------*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
   .element {
     overflow: hidden;
   }
 
   .element #navLink {
-    display: none;
+    display: flex;
+    font-size: 50%;
   }
 
   .element li a {
-    display: block;
+    display: flex;
+    font-size: 50%;
   }
 
   .element a.navIcon {
@@ -472,14 +539,15 @@ main .header h1{
   }
 
   .nav .nav-items {
-    display: none;
+    /* display: none; */
   }
 
   .nav-brand {
     width: 10%;
   }
   .nav-brand a img {
-    width: 100%;
+    width: 300%;
+
   }
 
   .about-content {
